@@ -19,12 +19,16 @@ public static class Validacoes
         else
         {
             int soma = 0;
-            int contador = 10;
-            for (int i = 0; i < cpf.Length - 2; i++)
+            int soma2 = 0;
+            for (int i = 0; i < cpf.Length - 1; i++)
             {
-                soma += Convert.ToInt32(cpf[i].ToString()) * contador;
-                contador--;
+                if(i < 9)
+                {
+                    soma += Convert.ToInt32(cpf[i].ToString()) * (10 - i);
+                }
+                soma2 += Convert.ToInt32(cpf[i].ToString()) * (11 - i);
             }
+            
             int resto = soma % 11;
             if (resto < 2 && Convert.ToInt32(cpf[9].ToString()) != 0)
             {
@@ -38,30 +42,21 @@ public static class Validacoes
                     return false;
                 }
             }
-
-            soma = 0;
-            contador = 11;
-            for (int i = 0; i < cpf.Length - 2; i++)
-            {
-                soma += Convert.ToInt32(cpf[i].ToString()) * contador;
-                contador--;
-            }
-
-
-            resto = soma % 11;
-
-            if (resto < 2 && Convert.ToInt32(cpf[10].ToString()) != 0)
+            int resto2 = soma2 % 11;
+            if (resto2 < 2 && Convert.ToInt32(cpf[10].ToString()) != 0)
             {
                 return false;
             }
             else
             {
 
-                if (Convert.ToInt32(cpf[10].ToString()) != (11 - resto))
+                if (Convert.ToInt32(cpf[10].ToString()) != (11 - resto2))
                 {
                     return false;
                 }
             }
+
+
         }
         return true;
 
