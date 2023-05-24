@@ -1,0 +1,11 @@
+C:\Users\elias\source\repos\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\elias\source\repos\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\elias\source\repos\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.csproj.AssemblyReference.cache
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.Form1.resources
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.cache
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.csproj.CoreCompileInputs.cache
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\elias\source\repos\IMC\IMC\obj\Debug\IMC.pdb
