@@ -9,9 +9,6 @@ public static class Validacoes
     {
         cpf = cpf.Replace(".", "");
         cpf = cpf.Replace("-", "");
-
-        //05364391174
-
         if (cpf.Length != 11)
         {
             return false;
@@ -36,7 +33,6 @@ public static class Validacoes
             }
             else
             {
-
                 if (Convert.ToInt32(cpf[9].ToString()) != (11 - resto))
                 {
                     return false;
@@ -49,17 +45,12 @@ public static class Validacoes
             }
             else
             {
-
                 if (Convert.ToInt32(cpf[10].ToString()) != (11 - resto2))
                 {
                     return false;
                 }
             }
-
-
         }
         return true;
-
-
     }
 }
