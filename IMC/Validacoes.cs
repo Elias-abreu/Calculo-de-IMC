@@ -7,6 +7,7 @@ public static class Validacoes
 {
     public static bool ValidaCPF(string cpf)
     {
+        //Validação de CPF na forma de string
         cpf = cpf.Replace(".", "");
         cpf = cpf.Replace("-", "");
         if (cpf.Length != 11)
