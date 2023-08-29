@@ -6,6 +6,7 @@ public class Aluno: Pessoa
     /*Exemplo de alteração*/
 
         /*Alteração local*/
+        /*Exemplo de pull*/
         nome = "";
     }
 }
